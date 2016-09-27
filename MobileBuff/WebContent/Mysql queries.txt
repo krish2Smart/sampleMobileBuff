@@ -1,6 +1,0 @@
-use mobuf;
-
-create table mobReviews(mobileName varchar(20),modelName varchar(20),modelId varchar(10),reviews varchar(256),ratings double,id int not null auto_increment,primary key(id));
-
-insert into mobReviews (mobileName,modelName,modelId,reviews,ratings) values("Lenovo","vibe K4 Note","ST26578","Pretty good smartphone for the price segment. Everything was fine acc to its price. At this price you are getting above 5 inches of screen and Dolby atmos front-firing speakers. The resolution was good and the viewing angles were also good. The processor was fast and I did not notice any such lag.",3.5);
-
