@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.navBar ul li {
+	float : right;
+	padding : 30px 10px 30px 10px;
+	list-style-type : none;
+	margin : 0px;
+}
+
+.navBar ul li a {
+	text-decoration : none;
+	color : white;
+}
+
+.navBar ul {
+	background : #E5654A;
+	overflow : hidden;
+	margin : 0px;
+	padding : 0px;
+}
+
+.navBar ul li a:hover {
+	color : #734D79;
+}
+
+.navBar li:first-child {
+	padding-right : 40px;
+} 
+
+.navBar li:last-child {
+	float : left;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	font-size : 30px;
+	padding : 15px 0px 15px 0px;
+	padding-left : 50px;
+}
+
+.dltBtn {
+	background-image : url('Images/delete-10.png');
+    background-repeat: no-repeat;
+}
+
+.updtBtn {
+	background-image : url('Images/edit-3-10.png');
+	background-repeat : no-repeat;
+}
